@@ -60,6 +60,6 @@ Each submission appends one row: `Timestamp · Name · Group Color · Result · 
 
 ## Notes & caveats
 
-- **Question count**: the source doc labels each dimension "1–4 / 5–8 / 9–12 / 13–16" but only lists questions 1–3, 5–7, 9–11, 13–15 (Q4, 8, 12, 16 are missing). This build ships the **12 questions that exist** — 3 per dimension, so there's never a tie. To move to 4 per dimension, add the missing questions to `src/lib/questions.ts` (scoring handles any count; ties default to the first letter).
+- **Question count**: the source doc labels each dimension "1–4 / 5–8 / 9–12 / 13–16" but only lists questions 1–3, 5–7, 9–11, 13–15 (Q4, 8, 12, 16 are missing). This build ships the **12 questions that exist** — 3 per dimension, so there's never a tie — and renumbers them to clean **1–12** ids in `src/lib/questions.ts` for tidy results data. To move to 4 per dimension, add the missing questions (scoring handles any count; ties default to the first letter).
 - **`npm audit` advisories**: the installed Next.js 14.2.35 is the latest 14.x. The reported advisories are all config-dependent and **not applicable to this app** (no `next/image`, no Server Actions, no middleware/rewrites/i18n, no custom server, and it's hosted on Vercel/Linux, not a self-hosted Windows box). If you want to clear them entirely you'd need a major bump to Next 16, which is a breaking change and unnecessary here.
 - This is a lightweight quick test for team-building / icebreakers — not a clinical or validated psychometric instrument.

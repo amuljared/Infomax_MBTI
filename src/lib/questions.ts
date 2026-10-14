@@ -36,21 +36,21 @@ export const QUESTIONS: Question[] = [
   },
   // --- S or N — How you take in information ---
   {
-    id: 5,
+    id: 4,
     dimension: "SN",
     text: "When learning something new, you prefer...",
     optionA: "Clear examples and practical instructions.",
     optionB: "Understanding the overall concept and possibilities.",
   },
   {
-    id: 6,
+    id: 5,
     dimension: "SN",
     text: "When someone tells you a story, you tend to remember...",
     optionA: "The specific details.",
     optionB: "The main idea or meaning behind it.",
   },
   {
-    id: 7,
+    id: 6,
     dimension: "SN",
     text: "When solving a problem, you usually...",
     optionA: "Use methods that have worked before.",
@@ -58,21 +58,21 @@ export const QUESTIONS: Question[] = [
   },
   // --- T or F — How you make decisions ---
   {
-    id: 9,
+    id: 7,
     dimension: "TF",
     text: "When making an important decision, you prioritize...",
     optionA: "Logic and objective facts.",
     optionB: "People and how they will be affected.",
   },
   {
-    id: 10,
+    id: 8,
     dimension: "TF",
     text: "When giving feedback, you tend to...",
     optionA: "Be direct about what needs to improve.",
     optionB: "Think about how to say it without discouraging the person.",
   },
   {
-    id: 11,
+    id: 9,
     dimension: "TF",
     text: "A coworker comes to you with a problem. Your first instinct is to...",
     optionA: "Help them find a solution.",
@@ -80,21 +80,21 @@ export const QUESTIONS: Question[] = [
   },
   // --- J or P — How you approach life ---
   {
-    id: 13,
+    id: 10,
     dimension: "JP",
     text: "When planning an event, you prefer...",
     optionA: "A clear schedule and plan.",
     optionB: "Flexibility to change things along the way.",
   },
   {
-    id: 14,
+    id: 11,
     dimension: "JP",
     text: "Your ideal weekend is...",
     optionA: "Planned with things you want to accomplish.",
     optionB: "Open with no strict schedule.",
   },
   {
-    id: 15,
+    id: 12,
     dimension: "JP",
     text: "When given a deadline, you usually...",
     optionA: "Prefer to finish early or stay ahead.",
